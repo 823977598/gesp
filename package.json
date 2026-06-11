@@ -1,0 +1,16 @@
+{
+  "name": "gesp-site",
+  "version": "1.0.0",
+  "description": "GESP C++ 知识点整理 L1-L8",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": ["GESP", "C++", "知识图谱"],
+  "author": "熊猫编程工作室",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
