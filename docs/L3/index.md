@@ -1,6 +1,5 @@
 # GESP C++ 三级（L3 进阶）知识点整理
 
-> 来源：https://gesp.scirco.cn/L3/topics.html
 > 共 20 个考点，涵盖结构体、文件操作、递归回溯、STL 算法等
 
 ---
@@ -1327,4 +1326,3 @@ namespace fs = std::filesystem;  // C++17
 
 ---
 
-> ⚠️ 注意：原网站（gesp.scirco.cn）的代码模板存在严重错位问题（代码与标题不匹配）。本文件已修正为每个考点对应的正确代码模板。
