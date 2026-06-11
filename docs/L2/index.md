@@ -605,7 +605,7 @@ for (i) for (j) ...   // 下半部分
 
 ## 三、字符串（11–12）
 
-### 11. string 类 — #include <string>、运算符 +
+### 11. string 类 — #include &lt;string&gt;、运算符 +
 
 **概念**
 - `string` 是 C++ 标准库的字符串类
@@ -655,7 +655,7 @@ int main() {
 ```
 
 **易错点**
-- 需要 `#include <string>`
+- 需要 `#include &lt;string&gt;`
 - `string` 可以用 `+` 连接，字符数组不能
 - `cin >> s` 遇空格停止，读整行用 `getline`
 - `string` 不需要手动管理内存

@@ -702,7 +702,7 @@ cout << (double)7 / 2 << endl; // 3.5
 
 ## 五、库的使用（19–20）
 
-### 19. 头文件 — #include <iostream> <cstdio> <cmath>
+### 19. 头文件 — #include &lt;iostream&gt; &lt;cstdio&gt; &lt;cmath&gt;
 
 **概念**
 - 头文件提供各种功能的函数和类
@@ -711,14 +711,14 @@ cout << (double)7 / 2 << endl; // 3.5
 **常用头文件**
 | 头文件 | 功能 | 常用内容 |
 |:---|:---|:---|
-| `<iostream>` | 输入输出 | `cin`, `cout`, `endl` |
-| `<cstdio>` | C风格输入输出 | `scanf`, `printf` |
-| `<cmath>` | 数学函数 | `abs`, `sqrt`, `pow`, `sin` |
-| `<algorithm>` | 算法 | `sort`, `max`, `min`, `swap` |
-| `<string>` | 字符串 | `string`, `getline` |
-| `<cstring>` | 字符数组 | `strlen`, `strcpy` |
-| `<cstdlib>` | 通用工具 | `rand`, `srand`, `system` |
-| `<climits>` | 整数限制 | `INT_MAX`, `INT_MIN` |
+| `&lt;iostream&gt;` | 输入输出 | `cin`, `cout`, `endl` |
+| `&lt;cstdio&gt;` | C风格输入输出 | `scanf`, `printf` |
+| `&lt;cmath&gt;` | 数学函数 | `abs`, `sqrt`, `pow`, `sin` |
+| `&lt;algorithm&gt;` | 算法 | `sort`, `max`, `min`, `swap` |
+| `&lt;string&gt;` | 字符串 | `string`, `getline` |
+| `&lt;cstring&gt;` | 字符数组 | `strlen`, `strcpy` |
+| `&lt;cstdlib&gt;` | 通用工具 | `rand`, `srand`, `system` |
+| `&lt;climits&gt;` | 整数限制 | `INT_MAX`, `INT_MIN` |
 
 **代码模板**
 ```cpp
@@ -753,14 +753,14 @@ int main() {
 **常用函数**
 | 函数 | 头文件 | 功能 | 示例 |
 |:---|:---:|:---|:---|
-| `abs(x)` | `<cmath>` | 绝对值 | `abs(-5)` → 5 |
-| `max(a,b)` | `<algorithm>` | 较大值 | `max(3,5)` → 5 |
-| `min(a,b)` | `<algorithm>` | 较小值 | `min(3,5)` → 3 |
-| `swap(a,b)` | `<algorithm>` | 交换两值 | `swap(a,b)` |
-| `sqrt(x)` | `<cmath>` | 平方根 | `sqrt(16.0)` → 4.0 |
-| `pow(a,b)` | `<cmath>` | 幂运算 | `pow(2,3)` → 8.0 |
-| `round(x)` | `<cmath>` | 四舍五入 | `round(3.5)` → 4.0 |
-| `floor(x)` | `<cmath>` | 向下取整 | `floor(3.7)` → 3.0 |
+| `abs(x)` | `&lt;cmath&gt;` | 绝对值 | `abs(-5)` → 5 |
+| `max(a,b)` | `&lt;algorithm&gt;` | 较大值 | `max(3,5)` → 5 |
+| `min(a,b)` | `&lt;algorithm&gt;` | 较小值 | `min(3,5)` → 3 |
+| `swap(a,b)` | `&lt;algorithm&gt;` | 交换两值 | `swap(a,b)` |
+| `sqrt(x)` | `&lt;cmath&gt;` | 平方根 | `sqrt(16.0)` → 4.0 |
+| `pow(a,b)` | `&lt;cmath&gt;` | 幂运算 | `pow(2,3)` → 8.0 |
+| `round(x)` | `&lt;cmath&gt;` | 四舍五入 | `round(3.5)` → 4.0 |
+| `floor(x)` | `&lt;cmath&gt;` | 向下取整 | `floor(3.7)` → 3.0 |
 
 **代码模板**
 ```cpp
@@ -795,7 +795,7 @@ int main() {
 
 **易错点**
 - `abs()` 对整数和浮点数都可用，但需注意头文件
-- `max` / `min` 需要 `<algorithm>`，不是 `<cmath>`
+- `max` / `min` 需要 `&lt;algorithm&gt;`，不是 `&lt;cmath&gt;`
 - `pow` 返回 `double`，转 `int` 需要强制转换
 - `sqrt` 参数和返回值都是 `double`
 

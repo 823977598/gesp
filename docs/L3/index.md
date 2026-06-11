@@ -871,7 +871,7 @@ int main() {
 ### 14. 常用算法 — sort / swap / reverse / min / max
 
 **概念**
-- `<algorithm>` 头文件提供大量通用算法
+- `&lt;algorithm&gt;` 头文件提供大量通用算法
 - 这些算法可以用于数组、vector 等容器
 
 **代码模板**
@@ -939,7 +939,7 @@ int main() {
 **易错点**
 - `sort` 默认升序，降序用 `greater<int>()`
 - `min_element` 返回迭代器/指针，要用 `*` 取值
-- 这些算法都在 `<algorithm>` 中
+- 这些算法都在 `&lt;algorithm&gt;` 中
 
 ---
 
