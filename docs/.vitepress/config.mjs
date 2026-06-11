@@ -18,7 +18,10 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: 'L1 入门', link: '/L1/' },
+      { text: 'L1 入门', link: '/L1/', items: [
+        { text: '知识点', link: '/L1/' },
+        { text: '代码模板', link: '/L1/snippets' },
+      ]},
       { text: 'L2 基础', link: '/L2/' },
       { text: 'L3 进阶', link: '/L3/' },
       { text: 'L4 提高', link: '/L4/' },
