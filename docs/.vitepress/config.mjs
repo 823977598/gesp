@@ -22,13 +22,34 @@ export default defineConfig({
         { text: '知识点', link: '/L1/' },
         { text: '代码模板', link: '/L1/snippets' },
       ]},
-      { text: 'L2 基础', link: '/L2/' },
-      { text: 'L3 进阶', link: '/L3/' },
-      { text: 'L4 提高', link: '/L4/' },
-      { text: 'L5 中级', link: '/L5/' },
-      { text: 'L6 高级', link: '/L6/' },
-      { text: 'L7 拔高', link: '/L7/' },
-      { text: 'L8 顶级', link: '/L8/' },
+      { text: 'L2 基础', link: '/L2/', items: [
+        { text: '知识点', link: '/L2/' },
+        { text: '代码模板', link: '/L2/snippets' },
+      ]},
+      { text: 'L3 进阶', link: '/L3/', items: [
+        { text: '知识点', link: '/L3/' },
+        { text: '代码模板', link: '/L3/snippets' },
+      ]},
+      { text: 'L4 提高', link: '/L4/', items: [
+        { text: '知识点', link: '/L4/' },
+        { text: '代码模板', link: '/L4/snippets' },
+      ]},
+      { text: 'L5 中级', link: '/L5/', items: [
+        { text: '知识点', link: '/L5/' },
+        { text: '代码模板', link: '/L5/snippets' },
+      ]},
+      { text: 'L6 高级', link: '/L6/', items: [
+        { text: '知识点', link: '/L6/' },
+        { text: '代码模板', link: '/L6/snippets' },
+      ]},
+      { text: 'L7 拔高', link: '/L7/', items: [
+        { text: '知识点', link: '/L7/' },
+        { text: '代码模板', link: '/L7/snippets' },
+      ]},
+      { text: 'L8 顶级', link: '/L8/', items: [
+        { text: '知识点', link: '/L8/' },
+        { text: '代码模板', link: '/L8/snippets' },
+      ]},
     ],
     
     // 侧边栏
