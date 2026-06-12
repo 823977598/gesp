@@ -1,6 +1,5 @@
 # GESP C++ 一级代码模板
 
-> 来源：https://gesp.scirco.cn/L1/snippets.html
 > 共 12 段高频代码模板
 
 ---
